@@ -61,6 +61,9 @@ _inputs:
   nav_section:
     type: text
     comment: The top level navigation section that this page is nested under
+  weight:
+    type: number
+    comment: The order of the page in the navigation
 
 # Set this to true to disable auto-detection of collections.
 collections_config_override: false
