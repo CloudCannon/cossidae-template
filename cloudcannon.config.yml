@@ -31,6 +31,12 @@ collections_config:
     _enabled_editors:
       - content
       - visual
+    output: true
+  data:
+    output: false
+    path: data
+    disable_add: true
+    disable_add_folder: true
     _inputs:
       small_icon:
         type: image
@@ -44,12 +50,6 @@ collections_config:
       shortcut_icon:
         type: image
         comment: The shortcut favicon image
-    output: true
-  data:
-    output: false
-    path: data
-    disable_add: true
-    disable_add_folder: true
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
