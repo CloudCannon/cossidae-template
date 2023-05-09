@@ -130,7 +130,11 @@ _snippets:
       subtext:
       icon:
     _inputs:
-
+      inner_code:
+        type: markdown
+        options:
+          snippets: true
+          code: true
   tree:
     template: hugo_paired_markdown_shortcode_named_args
     inline: false
