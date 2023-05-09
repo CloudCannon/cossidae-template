@@ -9,7 +9,7 @@ collections_config:
     output: true
     filter:
       base: none
-      exclude:
+      include:
         - _index.md
     parse_branch_index: true
     path: content
