@@ -1,8 +1,9 @@
 links:
-  # - url: "/privacy-policy/"
-  #   title: "Privacy Policy"
-  #   image_path:
-  - url: "https://cloudcannon.com"
+  - url: https://cloudcannon.com
     title:
     image_path: /images/cloudcannon.svg
-    alt: "Built by cloudcannon"
+    alt: Built by cloudcannon
+  - url: /privacy-policy/
+    title: Privacy Policy
+    image_path: ''
+    alt: ''
