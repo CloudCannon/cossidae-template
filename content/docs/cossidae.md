@@ -1,7 +1,7 @@
 ---
 title: Cossidae Theme
 nav_title: Cossidae Theme
-nav_section: test
+nav_section: Info
 weight: 7
 ---
 # CloudCannon Open-Source Standard Info, Docs, and Education
