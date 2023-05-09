@@ -3,5 +3,8 @@
   "private": true,
   "dependencies": {
     "alpinejs": "^3.10.3"
+  },
+  "scripts": {
+    "refresh-components": "hugo mod get -u https://github.com/CloudCannon/cossidae@$BRANCH_NAME && npm install https://https://github.com/CloudCannon/cossidae#$BRANCH_NAME"
   }
 }

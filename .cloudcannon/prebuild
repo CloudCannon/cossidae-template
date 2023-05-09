@@ -3,3 +3,4 @@ if [ -z "$HUGO_COSSIDAE_VERSION" ]; then
 fi
 echo "Building documentation for $HUGO_COSSIDAE_VERSION"
 npm i
+npm run refresh-components
