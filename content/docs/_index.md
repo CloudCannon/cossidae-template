@@ -12,22 +12,6 @@ This family includes many species with large caterpillars and moths with a wings
 
 Caterpillars are smooth with a few hairs. Most cossid caterpillars are tree borers, in some species taking up to three years to mature. The caterpillars pupate within their tunnels; they often have an unpleasant smell, hence another colloquial name is goat moths.
 
-
-
 The family includes the carpenterworm (Prionoxystus robiniae) and the goat moth (Cossus cossus) which have gained popularity as pests. However, the large caterpillars of species that do not smell badly are often edible. Witchetty grubs – among the Outback's most famous bush tucker – are most commonly the caterpillars of Endoxyla leucomochla, one of the more than 80 cossid species in Australia. In Chile, the sweet-smelling caterpillars of the Chilean moth (Chilecomadia moorei) are harvested in quantity and internationally traded as butterworms, for use as pet food and fishing bait.
 
-{{% tree %}}package.json
-
-\_includes/
-
-&gt;&gt; \_layouts/
-
-&gt; &gt;&gt; default.liquid
-
-&gt; &gt;&gt; page.liquid
-
-&gt;&gt; file.liquid
-
-\_site/
-
-&gt;&gt; index.html{{% /tree %}}
+{{% tree %}}<p>package.json</p><p>_includes/</p><p>&gt;&gt; _layouts/</p><p>&gt; &gt;&gt; default.liquid</p><p>&gt; &gt;&gt; page.liquid</p><p>&gt;&gt; file.liquid</p><p>_site/</p><p>&gt;&gt; index.html</p>{{% /tree %}}
