@@ -149,10 +149,8 @@ _snippets:
       icon:
     _inputs:
       inner_code:
-        type: markdown
-        options:
-          snippet: true
-          code: true
+        type: html
+
   
 
 # Set this to true to disable auto-detection of collections.
