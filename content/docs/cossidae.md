@@ -1,10 +1,9 @@
 ---
-title: "Cossidae Systematics"
-nav_title: "Cossidae theme"
+title: Cossidae Theme
+nav_title: Cossidae Theme
 nav_section: Info
 weight: 7
 ---
-
 # CloudCannon Open-Source Standard Info, Docs, and Education
 
 See the [cossidae-template](https://github.com/cloudcannon/cossidae-template) repo for a working example.
