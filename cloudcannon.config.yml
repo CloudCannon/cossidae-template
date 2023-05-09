@@ -64,6 +64,34 @@ _inputs:
   weight:
     type: number
     comment: The order of the page in the navigation
+  project_name:
+    type: text
+    comment: The name of the project
+  default_og_image:
+    type: image
+    comment: The default image for social media sharing
+  logo_image:
+    type: image
+    comment: The logo image
+  side_nav_title:
+    type: text
+    comment: The title of the side navigation
+  favicon:
+    type: object
+    comment: The favicon images
+    _inputs:
+      small_icon:
+        type: image
+        comment: The small favicon image
+      large_icon:
+        type: image
+        comment: The large favicon image
+      apple_touch_icon:
+        type: image
+        comment: The apple touch favicon image
+      shortcut_icon:
+        type: image
+        comment: The shortcut favicon image
 
 # Set this to true to disable auto-detection of collections.
 collections_config_override: false
