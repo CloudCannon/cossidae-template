@@ -6,7 +6,7 @@ external_links:
   - title: GitHub
     url: https://github.com/cloudcannon/cossidae-template
     version: 1.0.0
-    icon_path: /github.svg
+    icon_path: /images/github.svg
   # - title: Instagram
   #   url: https://test.com
   #   version: 12.0
