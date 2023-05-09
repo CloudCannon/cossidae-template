@@ -1,7 +1,0 @@
-keys:
-  - key: Animal
-    plural: Animals
-    default:
-    values:
-      - Moth
-      - Grub
