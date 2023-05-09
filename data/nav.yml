@@ -1,3 +1,5 @@
+logo_image: /logo.svg
+side_nav_title: Docs
 nav_links:
   - title: GitHub
     url: https://github.com/cloudcannon/cossidae-template

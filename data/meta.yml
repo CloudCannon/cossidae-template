@@ -1,7 +1,5 @@
 project_name: Cossidae
 default_og_image: /og.png
-logo_image: /logo.svg
-side_nav_title: Docs
 favicon:
   small_icon: /meta/favicon-16x16.png
   large_icon: /meta/favicon-32x32.png
