@@ -10,10 +10,23 @@ collections_config:
     filter: strict
     parse_branch_index: true
     path: content
+    base_url: /
+    icon: feed
     _enabled_editors:
       - visual
   docs:
     path: content/docs
+    base_url: /docs
+    icon: file
+    disable_add_folder: true
+    add_options:
+      - name: Read the docs
+        icon: local_library
+        href: https://docs.cloudcannon.com
+      - name: Add Document
+        editor: content
+        base_path: /drafts/
+        schema: docs
     _enabled_editors:
       - content
       - visual
@@ -21,6 +34,8 @@ collections_config:
   data:
     output: false
     path: data
+    disable_add: true
+    disable_add_folder: true
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
