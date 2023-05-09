@@ -99,7 +99,7 @@ _inputs:
     type: text
     comment: The title of the link
   link_url:
-    type: text
+    type: url
     comment: The url of the link
   link_label:
     type: text
