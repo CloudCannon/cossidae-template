@@ -1,4 +1,3 @@
-html: >-
-  Family: Cossidae; Leach, 1815
+html: '<p>Family: Cossidae; Leach, 1815</p>'
 id: cossidae
 show_until: 2293012800000
