@@ -51,6 +51,16 @@ collection_groups:
     collections:
       - data
   
+_inputs:
+  title: 
+    type: text
+    comment: The title of the page
+  nav_title:
+    type: text
+    comment: The title of the page in the navigation
+  nav_section:
+    type: text
+    comment: The top level navigation section that this page is nested under
 
 # Set this to true to disable auto-detection of collections.
 collections_config_override: false
