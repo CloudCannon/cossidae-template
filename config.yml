@@ -13,7 +13,7 @@ markup:
       unsafe: true
 module:
   imports:
-    - path: github.com/cloudcannon/cossidae
+    - path: github.com/CloudCannon/cossidae
   replacements: 
     # Uncomment this for development with a local theme. See the readme for more info
     # - 'github.com/cloudcannon/cossidae -> ../../cossidae/'
