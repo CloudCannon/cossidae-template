@@ -1,10 +1,10 @@
 logo_image: /logo.svg
 side_nav_title: Docs
 nav_links:
-  - title: GitHub
-    url: https://github.com/cloudcannon/cossidae-template
-    version: 1.0.0
-    icon_path: /images/github.svg
+  - link_title: GitHub
+    link_url: https://github.com/cloudcannon/cossidae-template
+    link_label: 1.0.0
+    link_icon_path: /images/github.svg
   # - title: Instagram
   #   url: https://test.com
   #   version: 12.0
