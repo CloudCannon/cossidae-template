@@ -131,10 +131,7 @@ _snippets:
       icon:
     _inputs:
       inner_code:
-        type: markdown
-        options:
-          snippets: true
-          code: true
+        type: code
   tree:
     template: hugo_paired_markdown_shortcode_named_args
     inline: false
@@ -151,6 +148,11 @@ _snippets:
       subtext:
       icon:
     _inputs:
+      inner_code:
+        type: markdown
+        options:
+          snippet: true
+          code: true
   
 
 # Set this to true to disable auto-detection of collections.
