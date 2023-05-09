@@ -31,6 +31,9 @@ collection_groups:
   - heading: Docs
     collections:
       - docs
+  - heading: Site Settings
+    collections:
+      - data
   
 
 # Set this to true to disable auto-detection of collections.
