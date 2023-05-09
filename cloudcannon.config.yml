@@ -7,7 +7,9 @@
 collections_config:
   pages:
     output: true
-    filter: strict
+    filter:
+      exclude:
+        - /docs
     parse_branch_index: true
     path: content
     base_url: /
