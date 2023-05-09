@@ -92,6 +92,22 @@ _inputs:
   favicon:
     type: object
     comment: The favicon images
+  nav_links:
+    type: array
+    comment: The links in the navigation
+  link_title:
+    type: text
+    comment: The title of the link
+  link_url:
+    type: text
+    comment: The url of the link
+  link_label:
+    type: text
+    comment: The label of the link
+  link_icon_path:
+    type: image
+    comment: The icon of the link
+  
 
 # Set this to true to disable auto-detection of collections.
 collections_config_override: false
