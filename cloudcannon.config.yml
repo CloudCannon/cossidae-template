@@ -10,8 +10,13 @@ collections_config:
     filter: strict
     parse_branch_index: true
     path: content
+    _enabled_editors:
+      - visual
   docs:
     path: content/docs
+    _enabled_editors:
+      - content
+      - visual
     output: true
   data:
     output: false
