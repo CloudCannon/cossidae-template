@@ -110,6 +110,43 @@ _inputs:
   link_icon_path:
     type: image
     comment: The icon of the link
+
+# Snippets
+
+_snippets:
+  diffcode:
+    template: hugo_paired_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: diffcode
+      content_key: inner_code
+      named_args: 
+    preview:
+      text:
+      subtext:
+      icon:
+    picker_preview:
+      text:
+      subtext:
+      icon:
+    _inputs:
+
+  tree:
+    template: hugo_paired_markdown_shortcode_named_args
+    inline: false
+    definitions:
+      shortcode_name: tree
+      content_key: inner_code
+      named_args: 
+    preview:
+      text:
+      subtext:
+      icon:
+    picker_preview:
+      text:
+      subtext:
+      icon:
+    _inputs:
   
 
 # Set this to true to disable auto-detection of collections.
