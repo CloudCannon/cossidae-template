@@ -86,15 +86,6 @@ _inputs:
   default_og_image:
     type: image
     comment: The default image for social media sharing
-  logo_image:
-    type: image
-    comment: The logo image
-  logo_image_dark:
-    type: image
-    comment: The dark logo image
-  logo_heading: 
-    type: text
-    comment: The logo heading text
   product_logo: 
     type: object
     comment: The product logo
@@ -168,11 +159,20 @@ _structures:
     values:
       - label: Image
         value: 
-          logo_image: 
+          logo_image:
+            type: image
+            comment: The logo image
           logo_image_dark:
+            type: image
+            comment: The dark logo image
+          logo_heading: 
+            type: text
+            comment: The logo heading text
       - label: Text
         value: 
           logo_heading: 
+
+          
 
 # Set this to true to disable auto-detection of collections.
 collections_config_override: false
