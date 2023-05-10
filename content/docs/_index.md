@@ -18,12 +18,12 @@ The family includes the carpenterworm (Prionoxystus robiniae) and the goat moth 
 test2
 test3{{< /highlight >}}
 
-{{< tree >}}
+{{< tree >}}```js
 _site
 >> assets
    >> hello.png
 +   >> hello.fr.png
-{{< /tree >}}
+```{{< /tree >}}
 
 {{< tree >}}
 _site
