@@ -20,23 +20,16 @@ The family includes the carpenterworm (Prionoxystus robiniae) and the goat moth 
 +   >> hello.fr.png
 {{< /tree >}}
 
+{{< tree >}}
+_site
+>> assets
+   >> hello.png
++   >> hello.fr.png
+{{< /tree >}}
+
 {{< diffcode >}}```html
 +<div data-rosey="content">
     <p>Hello!</p>
     <img src='/assets/hello.png' />
 </div>
 ```{{< /diffcode >}}
-
-{{< tree >}}
-_site
->> assets
-   >> hello.png
-+   >> hello.fr.png
-{{< /tree >}}
-
-{{< tree >}}
-_site
->> assets
-   >> hello.png
-+   >> hello.fr.png
-{{< /tree >}}
