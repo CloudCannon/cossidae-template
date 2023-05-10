@@ -138,9 +138,6 @@ _snippets:
     definitions:
       shortcode_name: tree
       content_key: inner_code
-      positional_args:
-        - editor_key: argument_one
-          type: string
     preview:
       text: Tree
       subtext: Tree directory formatter
