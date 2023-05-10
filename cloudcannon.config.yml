@@ -165,12 +165,11 @@ _structures:
           logo_image_dark:
             type: image
             comment: The dark logo image
-          logo_heading: 
-            type: text
-            comment: The logo heading text
       - label: Text
         value: 
           logo_heading: 
+            type: text
+            comment: The logo heading text
 
           
 
