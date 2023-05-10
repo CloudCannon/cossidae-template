@@ -149,7 +149,7 @@ _snippets:
       icon:
     _inputs:
       inner_code:
-        type: html
+        type: code
 
   
 
