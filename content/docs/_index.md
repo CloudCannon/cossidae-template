@@ -16,7 +16,7 @@ The family includes the carpenterworm (Prionoxystus robiniae) and the goat moth 
 
 
 
-{{< tree "\"\"" >}}.eleventy.js
+{{< tree >}}.eleventy.js
 package.json
 _includes/
 >> _layouts/
@@ -28,7 +28,9 @@ rosey/
 +>> locales/
 +>  >> ko-kr.json
 +>  >> no.json
->> base.json{{< /tree >}}
+>> base.json
+{{< /tree >}}
+
 
 
 # Hard coded tree
@@ -48,7 +50,6 @@ rosey/
 +>  >> no.json
 >> base.json
 {{< /tree >}}
-
 
 {{< diffcode >}}```html
 +<div data-rosey="content">
