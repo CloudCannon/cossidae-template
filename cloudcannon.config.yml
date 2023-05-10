@@ -89,6 +89,9 @@ _inputs:
   logo_image:
     type: image
     comment: The logo image
+  logo_image_dark:
+    type: image
+    comment: The dark logo image
   side_nav_title:
     type: text
     comment: The title of the side navigation
