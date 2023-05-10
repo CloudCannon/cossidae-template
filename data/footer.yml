@@ -1,8 +1,4 @@
 footer_links:
-  - url_path: /privacy-policy/
-    link_title: Privacy Policy
-    image_path: ''
-    image_alt_text: ''
   - url: https://cloudcannon.com
     link_title:
     image_path: /images/cloudcannon.svg
