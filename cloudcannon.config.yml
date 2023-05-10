@@ -133,7 +133,7 @@ _snippets:
       inner_code:
         type: code
   tree:
-    template: hugo_paired_shortcode_named_args
+    template: hugo_paired_shortcode_positional_args
     inline: false
     definitions:
       shortcode_name: tree
