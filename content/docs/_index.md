@@ -31,7 +31,23 @@ rosey/
 >> base.json{{< /tree >}}
 
 
+# Hard coded tree
 
+{{< tree >}}
+.eleventy.js
+package.json
+_includes/
+>> _layouts/
+   >> home.liquid
+_site/
+>> index.html
+index.liquid
+rosey/
++>> locales/
++>  >> ko-kr.json
++>  >> no.json
+>> base.json
+{{< /tree >}}
 
 
 {{< diffcode >}}```html
