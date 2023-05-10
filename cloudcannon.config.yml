@@ -111,6 +111,11 @@ _inputs:
   link_icon_path:
     type: image
     comment: The icon of the link
+  test_example: 
+    type: object
+    comment: The test example
+    structures: example
+  
 
 # Snippets
 
@@ -170,7 +175,17 @@ _structures:
           logo_heading: 
             type: text
             comment: The logo heading text
-
+  example:
+    values:
+      - label: First
+        value:
+          name: 
+          description: 
+          image: 
+      - label: Second
+        value:
+          heading: 
+          subtext: 
           
 
 # Set this to true to disable auto-detection of collections.
