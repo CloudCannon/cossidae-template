@@ -14,4 +14,11 @@ Caterpillars are smooth with a few hairs. Most cossid caterpillars are tree bore
 
 The family includes the carpenterworm (Prionoxystus robiniae) and the goat moth (Cossus cossus) which have gained popularity as pests. However, the large caterpillars of species that do not smell badly are often edible. Witchetty grubs – among the Outback's most famous bush tucker – are most commonly the caterpillars of Endoxyla leucomochla, one of the more than 80 cossid species in Australia. In Chile, the sweet-smelling caterpillars of the Chilean moth (Chilecomadia moorei) are harvested in quantity and internationally traded as butterworms, for use as pet food and fishing bait.
 
-{{% tree %}}<p>package.json</p><p>_includes/</p><p>&gt;&gt; _layouts/</p><p>&gt; &gt;&gt; default.liquid</p><p>&gt; &gt;&gt; page.liquid</p><p>&gt;&gt; file.liquid</p><p>_site/</p><p>&gt;&gt; index.html</p>{{% /tree %}}
+{{% tree %}}package.json
+_includes/
+>> _layouts/
+>  >> default.liquid
+>  >> page.liquid
+>> file.liquid
+_site/
+>> index.html{{% /tree %}}
