@@ -29,7 +29,7 @@ collections_config:
         href: https://docs.cloudcannon.com
       - name: Add Document
         editor: content
-        base_path: /docs
+        base_path: /
         schema: docs
     _enabled_editors:
       - content
