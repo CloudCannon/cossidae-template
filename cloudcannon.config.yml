@@ -92,6 +92,13 @@ _inputs:
   logo_image_dark:
     type: image
     comment: The dark logo image
+  logo_heading: 
+    type: text
+    comment: The logo heading text
+  product_logo: 
+    type: object
+    comment: The product logo
+    structures: product_logo
   side_nav_title:
     type: text
     comment: The title of the side navigation
@@ -153,7 +160,19 @@ _snippets:
       inner_code:
         type: code
 
-  
+
+# Structures
+
+_structures:
+  product_logo:
+    values:
+      - label: Image
+        value: 
+          logo_image: 
+          logo_image_dark:
+      - label: Text
+        value: 
+          logo_heading: 
 
 # Set this to true to disable auto-detection of collections.
 collections_config_override: false
