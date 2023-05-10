@@ -122,13 +122,13 @@ _snippets:
       content_key: inner_code
       named_args: 
     preview:
-      text:
-      subtext:
-      icon:
+      text: Diffcode
+      subtext: Difference formatter
+      icon: difference
     picker_preview:
-      text:
-      subtext:
-      icon:
+      text: Diffcode
+      subtext: Difference formatter
+      icon: difference
     _inputs:
       inner_code:
         type: code
@@ -140,13 +140,13 @@ _snippets:
       content_key: inner_code
       named_args: 
     preview:
-      text:
-      subtext:
-      icon:
+      text: Tree
+      subtext: Tree directory formatter
+      icon: account_tree
     picker_preview:
-      text:
-      subtext:
-      icon:
+      text: Tree
+      subtext: Tree directory formatter
+      icon: account_tree
     _inputs:
       inner_code:
         type: code
