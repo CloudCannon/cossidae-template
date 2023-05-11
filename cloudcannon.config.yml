@@ -15,7 +15,7 @@ collections_config:
       default:
         path: schemas/page.md
     add_options:
-      - name: Add Page
+      - name: Add Site Page
         editor: content
         base_path: /
         schema: default
