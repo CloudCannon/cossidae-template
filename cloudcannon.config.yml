@@ -66,6 +66,30 @@ collection_groups:
   - heading: Site Settings
     collections:
       - data
+      
+_structures:
+  product_logo_structure:
+    values:
+      - label: Image
+        value: 
+          logo_image:
+          logo_image_dark:
+      - label: Text
+        value: 
+          logo_heading: 
+          
+  example:
+    values:
+      - label: First
+        value:
+          name: 
+          description: 
+          image: 
+      - label: Second
+        value:
+          heading: 
+          subtext: 
+          
   
 _inputs:
   title: 
@@ -160,29 +184,7 @@ _snippets:
 
 # Structures
 
-_structures:
-  product_logo_structure:
-    values:
-      - label: Image
-        value: 
-          logo_image:
-          logo_image_dark:
-      - label: Text
-        value: 
-          logo_heading: 
-          
-  example:
-    values:
-      - label: First
-        value:
-          name: 
-          description: 
-          image: 
-      - label: Second
-        value:
-          heading: 
-          subtext: 
-          
+
 
 # Set this to true to disable auto-detection of collections.
 collections_config_override: false
