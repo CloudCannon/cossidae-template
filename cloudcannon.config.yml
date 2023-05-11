@@ -17,8 +17,9 @@ collections_config:
         base_path: /
         schema: docs
     _enabled_editors:
-      - content
       - visual
+      - content
+      
       
   docs:
     path: content/docs
