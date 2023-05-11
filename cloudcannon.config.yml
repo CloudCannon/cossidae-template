@@ -105,15 +105,15 @@ _inputs:
     type: object
     comment: The product logo
     options:
-      structures: product_logo_structure
-  # logo_image:
-  #   type: image
-  #   comment: Light mode image
-  # logo_image_dark:
-  #   type: image
-  #   comment: Dark mode image
-  # logo_text:
-  #   type: text
+      structures: _structures.product_logo_structure
+  logo_image:
+    type: image
+    comment: Light mode image
+  logo_image_dark:
+    type: image
+    comment: Dark mode image
+  logo_text:
+    type: text
   side_nav_title:
     type: text
     comment: The title of the side navigation
