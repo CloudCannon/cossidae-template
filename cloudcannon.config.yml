@@ -89,7 +89,8 @@ _inputs:
   logo: 
     type: object
     comment: The product logo
-    structures: product_logo
+    options:
+      structures: _structures.product_logo_structure
   side_nav_title:
     type: text
     comment: The title of the side navigation
@@ -160,7 +161,7 @@ _snippets:
 # Structures
 
 _structures:
-  product_logo:
+  product_logo_structure:
     values:
       - label: Image
         value: 
