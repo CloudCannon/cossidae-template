@@ -1,15 +1,12 @@
-logo_image: /logo.svg
-logo_heading: cossidae
 side_nav_title: Docs
 nav_links:
   - link_title: GitHub
     link_url: https://github.com/cloudcannon/cossidae-template
     link_label: 1.0.0
     link_icon_path: /images/github.svg
-example:
-  - name: Example 1
-    description: This is an example
-    image_path: 
-  - name: Example 2
-    description: This is another example
-    image_path:
+product_logo:
+  - name: Image
+    logo_image: 
+    logo_image_dark: 
+  - name: Text
+    logo_heading: cossidae
