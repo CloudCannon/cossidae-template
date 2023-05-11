@@ -12,8 +12,9 @@ collections_config:
     base_url: /
     icon: feed
     _enabled_editors:
-      - visual
       - content
+      - visual
+      
   docs:
     path: content/docs
     base_url: /docs
