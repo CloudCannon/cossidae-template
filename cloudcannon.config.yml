@@ -80,10 +80,12 @@ _structures:
   product_logo_structure:
     values:
       - label: Image
+        comment: Add logo as an image
         value: 
           logo_image:
           logo_image_dark:
       - label: Text
+        comment: Add logo as text
         value: 
           logo_heading: 
           
