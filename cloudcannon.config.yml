@@ -169,6 +169,9 @@ _inputs:
     type: object
     comment: The test example
     structures: example
+  url_path:
+    type: text
+
   
 
 # Snippets
