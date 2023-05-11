@@ -7,10 +7,6 @@
 collections_config:
   pages:
     output: true
-    filter:
-      base: none
-      include:
-        - _index.md
     parse_branch_index: true
     path: content
     base_url: /
