@@ -1,9 +1,5 @@
 side_nav_title: Docs
 nav_links:
-  - link_title: About Us
-    link_url: /about/
-    link_label: About
-    link_icon_path: ''
   - link_title: GitHub
     link_url: https://github.com/cloudcannon/cossidae-template
     link_label: 1.0.0
