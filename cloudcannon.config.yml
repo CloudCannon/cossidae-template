@@ -90,6 +90,21 @@ _structures:
         description: Add logo as text
         value: 
           logo_heading: 
+  footer_link_structure:
+    values:
+      - label: Image
+        icon: add_photo_alternate
+        description: Add logo as an image
+        value: 
+          url_path:
+          image_path:
+          image_alt_text:
+      - label: Site Link
+        icon: add_link
+        description: Add a link to a page on your site
+        value: 
+          url_path:
+          link_title:
           
   
 _inputs:
@@ -116,6 +131,11 @@ _inputs:
     comment: The product logo
     options:
       structures: _structures.product_logo_structure
+  footer_links:
+    type: array
+    comment: The links in the footer
+    options:
+      structures: _structures.footer_link_structure
   logo_image:
     type: image
     comment: Light mode image
