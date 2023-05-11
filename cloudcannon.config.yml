@@ -89,7 +89,7 @@ _inputs:
   logo: 
     type: object
     comment: The product logo
-    structures: product_logo
+    structures: example
   side_nav_title:
     type: text
     comment: The title of the side navigation
