@@ -1,7 +1,7 @@
 side_nav_title: Docs
 nav_links:
   - link_title: About Us
-    link_url: /about-us/
+    link_url: /about/
     link_label: About
     link_icon_path: ''
   - link_title: GitHub
