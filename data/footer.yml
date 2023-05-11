@@ -1,2 +1,4 @@
 footer_links:
-  footer_link:
+  - url_path:
+    image_path: /images/cloudcannon.svg
+    image_alt_text: cloudcannon
