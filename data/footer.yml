@@ -3,7 +3,7 @@ footer_links:
     link_title:
     image_path: /images/cloudcannon.svg
     image_alt_text: Built by cloudcannon
-  - url: /privacy-policy/
+  - url_path: /privacy-policy/
     link_title: privacy policy
     image_path: ''
     image_alt_text: ''
