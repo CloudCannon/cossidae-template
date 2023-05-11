@@ -13,7 +13,7 @@ collections_config:
     icon: feed
     schemas:
       default:
-        path: schemas/docs.md
+        path: schemas/page.md
     add_options:
       - name: Add Page
         editor: content
