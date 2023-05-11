@@ -11,11 +11,14 @@ collections_config:
     path: content
     base_url: /
     icon: feed
+    schemas:
+      default:
+        path: schemas/page.md
     add_options:
       - name: Add Page
         editor: content
         base_path: /
-        schema: schemas/docs.md
+        schema: default
     _enabled_editors:
       - visual
       - content
