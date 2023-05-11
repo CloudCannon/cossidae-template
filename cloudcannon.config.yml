@@ -11,6 +11,11 @@ collections_config:
     path: content
     base_url: /
     icon: feed
+    add_options:
+      - name: Add Page
+        editor: content
+        base_path: /
+        schema: docs
     _enabled_editors:
       - content
       - visual
