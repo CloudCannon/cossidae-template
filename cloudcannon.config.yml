@@ -105,7 +105,24 @@ _structures:
         value: 
           url_path:
           link_title:
-          
+  nav_link_structure:
+    values:
+      - label: Icon
+        icon: add_photo_alternate
+        description: Add an icon to the navigation
+        value:
+          link_title:
+          link_url:
+          link_label:
+          link_icon_path:
+      - label: Site Link
+        icon: add_link
+        description: Add a link to a page on your site
+        value: 
+          link_label:
+          link_url:
+          link_title:
+
   
 _inputs:
   title: 
@@ -151,6 +168,8 @@ _inputs:
   nav_links:
     type: array
     comment: The links in the navigation
+    options:
+      structures: _structures.nav_link_structure
   link_title:
     type: text
     comment: Categorizes the link
