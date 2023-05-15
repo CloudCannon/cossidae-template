@@ -127,10 +127,12 @@ _inputs:
     comment: The default image for social media sharing
   logo: 
     type: object
+    comment: choose between image or text based logo
     options:
       structures: _structures.product_logo_structure
   footer_links:
     type: array
+    comment: choose between image or text based links
     options:
       structures: _structures.footer_link_structure
   logo_image:
