@@ -177,6 +177,7 @@ _inputs:
     comment: Categorizes the link
   link_url:
     type: url 
+    comment: 'Internal links should be structured as /link/'
   link_label:
     type: text
     comment: Text displayed on the link
