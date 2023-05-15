@@ -49,16 +49,16 @@ collections_config:
     _inputs:
       small_icon:
         type: image
-        comment: The small favicon image
+        comment: Dimensions - 16px x 16px
       large_icon:
         type: image
-        comment: The large favicon image
+        comment: Dimensions - 32px x 32px
       apple_touch_icon:
         type: image
-        comment: The apple touch favicon image
+        comment: Dimensions - 57px x 57px
       shortcut_icon:
         type: image
-        comment: The shortcut favicon image
+        comment: Bookmark icon
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
@@ -81,7 +81,7 @@ _structures:
     values:
       - label: Image
         icon: add_photo_alternate
-        description: Add logo as an image
+        description: Add logo as image
         value: 
           logo_image:
           logo_image_dark:
@@ -94,7 +94,7 @@ _structures:
     values:
       - label: Image
         icon: add_photo_alternate
-        description: Add logo as an image
+        description: Add logo as image
         value: 
           url_path:
           image_path:
@@ -113,35 +113,32 @@ _inputs:
     comment: The title of the page
   nav_title:
     type: text
-    comment: The title of the page in the navigation
+    comment: Side bar navigation title
   nav_section:
     type: text
-    comment: The top level navigation section that this page is nested under
+    comment: The main navigation section of this page
   weight:
     type: number
     comment: The order of the page in the navigation
   project_name:
     type: text
-    comment: The name of the project
   default_og_image:
     type: image
     comment: The default image for social media sharing
   logo: 
     type: object
-    comment: The product logo
     options:
       structures: _structures.product_logo_structure
   footer_links:
     type: array
-    comment: The links in the footer
     options:
       structures: _structures.footer_link_structure
   logo_image:
     type: image
-    comment: Light mode image
+    comment: Default Display
   logo_image_dark:
     type: image
-    comment: Dark mode image
+    comment: Displays when dark mode is enabled
   logo_text:
     type: text
   side_nav_title:
@@ -149,26 +146,20 @@ _inputs:
     comment: The title of the side navigation
   favicon:
     type: object
-    comment: The favicon images
   nav_links:
     type: array
     comment: The links in the navigation
   link_title:
     type: text
-    comment: The title of the link
+    comment: Categorizes the link
   link_url:
-    type: url
-    comment: The url of the link
+    type: url 
   link_label:
     type: text
-    comment: The label of the link
+    comment: Text displayed on the link
   link_icon_path:
     type: image
-    comment: The icon of the link
-  test_example: 
-    type: object
-    comment: The test example
-    structures: example
+    comment: '*prefers svgs for dark mode'
   url_path:
     type: text
 
