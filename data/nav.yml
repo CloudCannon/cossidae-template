@@ -6,6 +6,6 @@ nav_links:
     link_icon_path: /images/github.svg
   - link_label: About
     link_url: /about/
-    link_title: About section
+    link_title: about
 logo:
   logo_heading: cossidae
