@@ -1,6 +1,8 @@
 ---
 title:
-image:
-description:
+SEO_options:
+    title:
+    image:
+    description:
 draft: false
 ---
