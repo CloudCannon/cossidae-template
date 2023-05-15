@@ -122,6 +122,9 @@ _structures:
           link_label:
           link_url:
           link_title:
+        preview:
+          text: Site Link
+          icon: add_link
 
   
 _inputs:
