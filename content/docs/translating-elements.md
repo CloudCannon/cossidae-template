@@ -4,7 +4,7 @@ title: Translating Elements
 nav_title: Translating Elements
 nav_section: Tagging
 weight: 3
-draft: true
+draft: false
 ---
 Elements to be translated need to have the `data-rosey` attribute. For example:
 
