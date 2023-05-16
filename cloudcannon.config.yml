@@ -29,6 +29,9 @@ collections_config:
     base_url: /docs
     icon: file
     disable_add_folder: true
+    schemas:
+      default:
+        path: schemas/docs.md
     add_options:
       - name: Read the docs
         icon: local_library
@@ -36,7 +39,7 @@ collections_config:
       - name: Add Document
         editor: content
         base_path: /
-        schema: docs
+        schema: default
     _enabled_editors:
       - content
       - visual
