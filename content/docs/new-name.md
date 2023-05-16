@@ -4,6 +4,6 @@ title: New name
 nav_title: Tester
 nav_section: New Test section
 weight: 9
-draft: true
+draft: false
 ---
 Hello World!
