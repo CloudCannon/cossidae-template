@@ -136,9 +136,15 @@ collections_config:
         comment: text color for codeblock variable names
       diffcode-added: 
         type: color
+        options:
+          format: hex
+          alpha: true
         comment: background color for added lines in diffcode shortcode
       diffcode-removed: 
         type: color
+        options:
+          format: hex
+          alpha: true
         comment: background color for removed lines in diffcode shortcode
       html:
         type: html
