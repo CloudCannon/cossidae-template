@@ -84,13 +84,13 @@ _structures:
     values:
       - label: Image
         icon: add_photo_alternate
-        description: Add logo as image
+        description: Add as image
         value: 
           logo_image:
           logo_image_dark:
       - label: Text
         icon: border_color
-        description: Add logo as text
+        description: Add as text
         value: 
           logo_heading: 
   footer_link_structure:
@@ -112,7 +112,7 @@ _structures:
     values:
       - label: Icon
         icon: add_photo_alternate
-        description: Add an icon to the navigation
+        description: Add social icon
         value:
           link_title:
           link_url:
@@ -120,7 +120,7 @@ _structures:
           link_icon_path:
       - label: Site Link
         icon: add_link
-        description: Add a link to a page on your site
+        description: Add internal link
         value: 
           link_label:
           link_url:
@@ -177,7 +177,7 @@ _inputs:
       structures: _structures.nav_link_structure
   link_title:
     type: text
-    comment: Categorizes the link
+    comment: Name used for alt text
   link_url:
     type: url 
     comment: 'Internal links should be structured as /link/'
