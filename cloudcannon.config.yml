@@ -140,6 +140,13 @@ collections_config:
       diffcode-removed: 
         type: color
         comment: background color for removed lines in diffcode shortcode
+      html:
+        type: html
+      id:
+        type: text
+      show_until:
+        type: date
+        comment: Date to stop showing the banner
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
