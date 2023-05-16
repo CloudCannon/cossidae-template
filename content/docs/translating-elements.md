@@ -1,10 +1,11 @@
 ---
-title: "Translating Elements"
-nav_title: "Translating Elements"
+_schema: default
+title: Translating Elements
+nav_title: Translating Elements
 nav_section: Tagging
 weight: 3
+draft: false
 ---
-
 Elements to be translated need to have the `data-rosey` attribute. For example:
 
 ```html
